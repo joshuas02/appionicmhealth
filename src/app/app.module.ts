@@ -13,15 +13,26 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { HttpModule } from '@angular/http';
 
-import firebaseConfig from './firebase';
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-// import { HttpModule } from '@angular/http'
-// import { UserService } from './user.service';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
-// import { FirebaseOriginal } from '@ionic-native/firebase';
+import { ApiService } from './services/api.service';
+
+const firebaseConfig = {
+  apiKey: "AIzaSyAe0NT18OzCCX0oPvzltBaJwI5geOnBx4A",
+  authDomain: "curiety-96a83.firebaseapp.com",
+  databaseURL: "https://curiety-96a83.firebaseio.com",
+  projectId: "curiety-96a83",
+  storageBucket: "curiety-96a83.appspot.com",
+  messagingSenderId: "964913091013",
+  appId: "1:964913091013:web:9bb3f92dbdcc3538ee7bac",
+  measurementId: "G-DTB6CRRNXT"
+}
+
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+    AppComponent,
+  ],
   entryComponents: [],
   imports: [
     BrowserModule,
@@ -38,7 +49,7 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
   providers: [
     StatusBar,
     SplashScreen,
-    // FirebaseOriginal,
+    ApiService,
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
   ],
   bootstrap: [AppComponent]

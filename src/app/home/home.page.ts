@@ -2,8 +2,6 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { Idthree } from '../models/idthree';
 import { ApiService } from '../services/api.service';
-import { HttpClient } from '@angular/common/http';
-import {Observable} from 'rxjs';
 
 @Component({
   selector: 'app-home',

@@ -1,0 +1,203 @@
+ion-content{
+    position: relative;
+    width: 411px;
+    height: 731px;
+    --ion-background-color: #332F68;
+  }
+// .background{
+//    
+// }
+// .body{
+//     background-color: #332F68;
+//     position: relative;
+//     width: 90%;
+//     height: 90%;
+// }
+ .line{
+    position: absolute;
+    width: 432px;
+    height: 365px;
+    left: 80px;
+    top: 340px;
+    
+    // opacity: 0.4;
+    // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+ }
+  .loginword{
+    position: absolute;
+    width: 121px;
+    height: 44px;
+    left: 104px;
+    top: 26px;
+    bottom: 60px;
+    // margin: 10px auto;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    // margin: auto;
+    
+    text-align: center;
+    
+    color: #4E47BB;
+    
+  }
+  .password {
+    background: #FFFFFF;
+    border: 1px solid #4C45BA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    // margin-top:10px;
+    width: 90%;
+    margin: 10px auto;
+    top:60px;
+  
+  }
+.loginbutton{
+    // top:100px;
+    width: 90%;
+    margin: 95px 20px 20px 16px;
+    // margin-bottom: 20px;
+}
+
+.signupbutton{
+  margin-left:70px;
+  // margin-top:0px;
+  .link-button{
+    color:rgb(0, 48, 136) ;
+  }
+  .link-button:hover {
+      color:rgb(42, 109, 233);
+  }
+  
+}
+
+.item-login{
+ margin: 50px auto;    
+}
+  .username{
+      
+    background: #FFFFFF;
+    border: 1px solid #4C45BA;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 90%;
+    top:40px;
+  }
+  .login-header{
+    // position: absolute;
+    // width: 428px;
+    // height: 300px;
+    // left: 1px;
+    // top: 0px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #332F68;
+}
+  .lock{
+    color: #6C63FF;
+    font-size: 20px;
+
+    // position: absolute;
+    // left: 4.33%;
+    // right: 2.51%;
+    // top: 9.63%;
+    // bottom: 8.18%;
+  }
+  .logo-img{
+    // position: absolute;
+    // width: 428px;
+    // height: 400px;
+    // left: 1px;
+    // top: -10px;
+    margin: 0 auto;
+    // margin-right: 300px;
+    position: relative;
+    align-items: center;
+    bottom:40px;
+}
+  
+ .cardlogin{
+    
+    
+    background-color: white !important;
+    position: relative;
+    // width: 95%;
+    // height: 40%;
+    // left: 59px;
+    border-radius: 10px;
+    // top: 100px;
+
+    margin: 0px auto;
+    // top:325;
+    width: 330px;
+    height: 342px;
+    // left: 49px;
+    // right: 71px;
+    top: 70px;     
+    bottom: 10px;
+    // top: 350px;
+ }
+  
+//   [big-heading]{
+//     font-family: "Heebo-Bold" !important;
+//     font-size: 30px !important;
+//     color:var(--theme-black); 
+//   }
+//   [small-heading]{
+//     font-family: "Heebo-Regular" !important;
+//     margin-left: auto;padding-right: 40px; font-size: 15px
+//   }
+//   [heading-column-lr]{
+//   display: flex;
+//   -ms-flex-align: center;
+//   align-items: center;
+//   }
+  
+//   .icon-eye{
+//     color: var(--ion-color-gray);
+//   }
+//   [transparent]{
+//     --background: transparent;
+//   }
+//   ion-input{
+//     --color: #000;
+//     --padding-bottom: 15px;
+//     --padding-top: 15px;
+//     --padding-start: 5px;
+//     font-size: 15px;
+//     text-indent: 1px;
+//     padding-left: 10px !important;
+//   }
+//   [icon-small]{
+//     width: 30px;
+//   }
+//   ion-item{
+//     --highlight-color-focused:transparent;
+//     --highlight-height:0;
+//     --highlight-color-invalid:#000;
+//     --highlight-color-valid:#ddd;
+//     --min-height: 65px;
+//     --padding-start: 0;
+//   }
+//   [linespace]{
+//     height: 30px;
+//   }
+  
+  
+//   ion-label{
+//         color:#000;
+//         opacity: .8;
+//         font-size: 13px;
+//         display: block;
+//     }
+//   .forget-password{
+//     color: #000;
+//       font-size: 13px;
+//       display: block;
+//       text-align: right;
+//       padding: 10px;
+//   }

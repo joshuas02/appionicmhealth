@@ -1,0 +1,21 @@
+ion-label p{
+    margin-top:200px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+ion-header{
+    --ion-background-color: rgb(55, 51, 114);
+   color: white;
+}
+
+ion-title{
+    color: white;
+}
+
+
+ion-content {
+	--overflow: hidden;
+    text-align: center;
+    --ion-background-color: rgb(102, 94, 211);
+}

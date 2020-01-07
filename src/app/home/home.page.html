@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Question
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div><img class="line" src="assets/Vector.svg"></div>
+  <ion-grid>
+    <ion-card>
+    <ion-radio-group [(ngModel)]="choice">
+    <ion-list-header>
+    <ion-label>{{show_quest.nbr}}. {{show_quest.question }}</ion-label>
+    </ion-list-header>
+    <!-- <div class="options"> -->
+
+    <ion-item color="white" lines="none">
+    <ion-label>Tidak pernah</ion-label>
+    <ion-radio slot="start" [value]="show_quest.choice1"></ion-radio>
+    </ion-item>
+
+    <ion-item  color="white" lines="none">
+    <ion-label>Terkadang</ion-label>
+    <ion-radio slot="start" [value]="show_quest.choice2"></ion-radio>
+    </ion-item>
+
+    <ion-item color="white" lines="none">
+    <ion-label>Sering</ion-label>
+    <ion-radio slot="start" [value]="show_quest.choice3"></ion-radio>
+    </ion-item>
+
+    <ion-item color="white" lines="none">
+    <ion-label>Selalu</ion-label>
+    <ion-radio slot="start" [value]="show_quest.choice4"></ion-radio>
+    </ion-item>
+
+    </ion-radio-group>
+    <!-- </div> -->
+    <br>
+    <ion-button color="primary" (click)="next_quest()" *ngIf="isVisible">Next Question</ion-button>
+    <ion-button color="primary" (click)="submit()" *ngIf="isVisible_submit">Submit</ion-button>
+
+  </ion-card>
+</ion-grid>
+</ion-content>  

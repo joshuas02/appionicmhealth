@@ -1,0 +1,54 @@
+
+<ion-content>
+  <ion-header no-border>
+    <div class="login-header">
+      <img class="logo-img" src="assets/logo2.svg">
+    </div>
+  </ion-header>
+    
+  <!-- <ion-content padding> -->
+  <!-- <div class="body"> -->
+  <div><img class="line" src="assets/Vector.svg"></div>
+  <ion-grid fixed>	
+  <ion-card fullscreen class="cardlogin" >
+  
+      <div class="loginw">	<img class="loginword" src="assets/LOGIN.svg"></div>
+  
+      <div class="item-login">
+      <ion-item color="white" class="username">
+  
+        <ion-label fill="solid"class="lock"><ion-icon name="people"></ion-icon></ion-label>
+        <ion-input type="text" [(ngModel)]="username"></ion-input>
+  
+      </ion-item>
+    
+      
+    
+      <ion-item color="white" class="password">
+        <ion-label class="lock" ><ion-icon name="lock"></ion-icon></ion-label>
+        <ion-input type="password" [(ngModel)]="password"></ion-input>
+      </ion-item>
+    
+      
+  
+      
+    <ion-button class="loginbutton" fill="solid" expand="block" color="primary" (click)="login()">Login</ion-button>
+  
+    <ion-label class="signupbutton">Don’t have Account? <span class="link-button" (click)="signup()">Sign Up</span></ion-label>
+  
+  
+  <!-- </div> -->
+  
+  </div>
+  
+  </ion-card>
+  
+  </ion-grid>
+  
+  </ion-content>
+  
+  
+  
+  <!-- </ion-content> -->
+  
+  

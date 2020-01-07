@@ -1,0 +1,30 @@
+<ion-content>
+<div class="center">
+    <ion-slides #slides pager="true" [options]="slideOpts" (ionSlideDidChange)="ionSlideChange(slides)">
+        <ion-slide class="step-one">
+            <br><br><br><br><br>
+            <img margintop20 src="assets/term1.svg" />
+            <br><br><br><br><br>
+            <p>Aplikasi dalam bentuk kuesioner ini mengukur tingkat Kecemasan anda dalam bentuk scoring tingkat, bukan diagnosa</p>
+        </ion-slide>
+ 
+        <ion-slide class="step-one">
+            <br>
+            <img margintop20 src="assets/term2.svg" />
+            <br>
+            <p>Anda wajib menjawab seluruh pertanyaan</p>
+        </ion-slide>
+ 
+        <ion-slide class="step-one">
+            <br><br>
+            <img margintop20 src="assets/term3.svg" />
+            <br><br>
+            <p>Setelah mengisi seluruh pertanyaan, anda akan mendapatkan RESULT</p>
+        </ion-slide>
+    </ion-slides>
+ 
+    <ion-button class="tour-button" (click)="next()">
+        <div class="parent"> {{buttonName}} </div>
+    </ion-button>
+</div>
+</ion-content>
